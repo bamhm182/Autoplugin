@@ -142,6 +142,10 @@ dofile("scripts/psp/menu_psp.lua")
 --Funciones EXTRAS
 dofile("scripts/extras/customsplash.lua")
 dofile("scripts/extras/menu_extras.lua")
+
+--Funciones AUTOPLUGIN
+dofile("scripts/autoplugin/menu_autoplugin.lua")
+dofile("scripts/autoplugin/credits.lua")
 dofile("scripts/extras/translate.lua")
 
 --Main Cycle

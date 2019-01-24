@@ -4,6 +4,7 @@ ENGLISH_US = {}
 
 ENGLISH_US["CHINESE_FONT_DOWNLOAD"] =					"Downloading Chinese Font"
 ENGLISH_US["MENU_TRANSLATE"] =							"Translate Autoplugin"
+ENGLISH_US["MENU_CREDITS"] =							"Credits"
 ENGLISH_US["TRANSLATE_ENGLISH_TITLE"] =					"English: "
 ENGLISH_US["TRANSLATE_CURRENT_TITLE"] =					"Current: "
 ENGLISH_US["TRANSLATE_YOUR_TITLE"] =					"Yours: "

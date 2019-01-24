@@ -21,6 +21,10 @@ local extras_callback = function ()
 	extras()
 end
 
+local autoplugin_callback = function()
+	menu_autoplugin()
+end
+
 local exit_callback = function ()
     if change then
 		os.message(LANGUAGE["STRING_PSVITA_RESTART"])
@@ -35,6 +39,7 @@ local menu = {
 	{ text = LANGUAGE["MENU_PSVITA"],	funct = psvita_callback },
 	{ text = LANGUAGE["MENU_PSP"],		funct = psp_callback },
 	{ text = LANGUAGE["MENU_EXTRAS"],	funct = extras_callback },
+	{ text = LANGUAGE["MENU_TITLE"],	funct = autoplugin_callback },
 	{ text = LANGUAGE["MENU_EXIT"],		funct = exit_callback }
 }
 local scrollm = newScroll(menu,#menu)

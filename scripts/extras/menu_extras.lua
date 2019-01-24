@@ -123,20 +123,15 @@ local customwarning_callback = function ()
 	end
 end
 
-local translate_callback = function ()
-	translate()
-end
-
 function extras()
 
-	local menuext = {
+	local menutext = {
 		{ text = LANGUAGE["MENU_QENCORE"],			 desc = LANGUAGE["MENU_QENCORE_DESC"],				funct = qencore_callback },
 		--{ text = LANGUAGE["MENU_INSTALL_CONFIG"],	 desc = LANGUAGE["MENU_INSTALL_CONFIG_DESC"],		funct = config_callback },
 		{ text = LANGUAGE["MENU_CONVERTBOOTSPLASH"], desc = LANGUAGE["INSTALLP_DESC_CUSTOMBOOTSPLASH"],	funct = convertimgsplash_callback },
 		{ text = LANGUAGE["MENU_CUSTOMWARNING"],	 desc = LANGUAGE["INSTALLP_DESC_CUSTOMWARNING"],	funct = customwarning_callback },
-		{ text = LANGUAGE["MENU_TRANSLATE"],         desc = LANGUAGE["MENU_TRANSLATE_DESC"],            funct = translate_callback}
 	}
-	local scrollex = newScroll(menuext,#menuext)
+	local scrollex = newScroll(menutext,#menutext)
 
 	local x_scrext = 20
     while true do
@@ -150,14 +145,14 @@ function extras()
         local y = 160
         for i=scrollex.ini, scrollex.lim do
             if i == scrollex.sel then draw.offsetgradrect(0,y-10,960,32,color.shine:a(55),color.shine:a(105),0x0,0x0,21) end
-            screen.print(480,y,menuext[i].text,1.2,color.white, 0x0, __ACENTER)
+            screen.print(480,y,menutext[i].text,1.2,color.white, 0x0, __ACENTER)
             y+=38
         end
 
-		if screen.textwidth(menuext[scrollex.sel].desc) > 935 then
-			x_scrext = screen.print(x_scrext, 520, menuext[scrollex.sel].desc,1,color.white,color.orange,__SLEFT,935)
+		if screen.textwidth(menutext[scrollex.sel].desc) > 935 then
+			x_scrext = screen.print(x_scrext, 520, menutext[scrollex.sel].desc,1,color.white,color.orange,__SLEFT,935)
 		else
-			screen.print(480, 520, menuext[scrollex.sel].desc,1,color.white,color.orange,__ACENTER)
+			screen.print(480, 520, menutext[scrollex.sel].desc,1,color.white,color.orange,__ACENTER)
 		end
 
         screen.flip()
@@ -171,7 +166,7 @@ function extras()
 		end
 
 		if buttons[cancel] then break end
-        if buttons[accept] then menuext[scrollex.sel].funct() end
+        if buttons[accept] then menutext[scrollex.sel].funct() end
 
     end
 
