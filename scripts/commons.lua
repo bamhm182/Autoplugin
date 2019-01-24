@@ -61,6 +61,23 @@ function message_wait(message)
 	screen.flip()
 end
 
+function check_online(verbose)
+	local file = http.get("https://raw.githubusercontent.com/theheroGAC/Autoplugin/master/version")
+
+	if file then
+		if wlan.isconnected() then
+			if wlan.strength() < 55 then
+				if verbose then os.message(LANGUAGE["UPDATE_WIFI_IS_LOW"]) end
+				return false
+			end
+		end
+	else
+		if verbose then os.message(LANGUAGE["UPDATE_WIFI_OFF"]) end
+		return false
+	end
+	return true
+end
+
 --Variables Universales
 files.mkdir("ux0:CustomBootsplash/")
 

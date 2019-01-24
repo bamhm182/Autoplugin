@@ -114,7 +114,7 @@ FRENCH["PSPCTRLS_LR_SWAP"] =							"Changer de partition"
 
 --plugins online
 FRENCH["UPDATE_WIFI_LOW"] =								"\nSignal Wifi faible"
-FRENCH["UPDATE_WIFI_IS_ON"] =							"\nNécéssite une connexion Wifi"
+FRENCH["UPDATE_WIFI_OFF"] =							"\nNécéssite une connexion Wifi"
 FRENCH["UPDATE_CHECK_DB"] =								"\nVérification de la base de données en cours..."
 FRENCH["UPDATE_PLUGIN"] =								"\nLes plugins ont été mise à jour"
 FRENCH["UPDATE_ERROR_DB"] =								"\nErreur de téléchargement du fichier db.lua"

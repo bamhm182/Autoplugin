@@ -23,7 +23,7 @@ JAPANESE["INSTALL_PLUGINS_DESC"] =						"最も有用なプラグインをイン
 JAPANESE["UNINSTALL_PLUGINS_DESC"] =					"プラグインを簡単かつシンプルにアンインストールします"
 JAPANESE["INSTALL_SD2VITA_DESC"] =						"SD2VITAプラグイン（StorageMgr by CelesteBlue）をインストールします"
 JAPANESE["CONFIG_SD2VITA_DESC"] =						"SD2VITAプラグインの設定 （StorageMgr by CelesteBlue）"
-JAPANESE["CHECK_ONLINEP_DESC"] =						"新しく更新されたプラグインの有無を確認します （Wi-Fi必須）"
+JAPANESE["CHECK_ONLINEP_DESC"] =						"新しく更新されたプラグインの有無を確認します"
 
 JAPANESE["MENU_TITLE_PSVITA"] =							"PS Vita オプション"
 JAPANESE["MENU_INSTALL_SD2VITA"] =						"SD2VITAプラグインのインストール"
@@ -133,7 +133,7 @@ JAPANESE["PSPCTRLS_LR_SWAP"] =							"L/Rトリガー:パーティションを�
 
 --plugins online
 JAPANESE["UPDATE_WIFI_LOW"] =							"Wi-Fiの信号が弱いです"
-JAPANESE["UPDATE_WIFI_IS_ON"] =							"Wi-Fiを有効にして下さい"
+JAPANESE["UPDATE_WIFI_OFF"] =							"Wi-Fiを有効にして下さい"
 JAPANESE["UPDATE_CHECK_DB"] =							"データベースを確認"
 JAPANESE["UPDATE_PLUGINS"] =							"プラグインを更新"
 JAPANESE["UPDATE_ERROR_DB"] =							"db.luaのダウンロードエラー"

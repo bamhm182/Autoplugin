@@ -23,7 +23,7 @@ GERMAN["MENU_EXIT"] =									"Exit"
 GERMAN["INSTALL_PLUGINS_DESC"] =						"Die meisten sinnvollen Plugins der PS-VITA Scene installieren"
 GERMAN["UNINSTALL_PLUGINS_DESC"] =						"Einfach und simpel die Plugins wieder deinstallieren"
 GERMAN["INSTALL_SD2VITA_DESC"] =						"Das Plugin 'StorageMgr' (von CelesteBlue) installieren"
-GERMAN["CHECK_ONLINEP_DESC"] =							"Plugins auf neue Updates prüfen (Wifi erforderlich)"
+GERMAN["CHECK_ONLINEP_DESC"] =							"Plugins auf neue Updates prüfen"
 
 GERMAN["MENU_TITLE_PSVITA"] =							"PSVITA OPTIONEN"
 GERMAN["MENU_INSTALL_SD2VITA"] =						"Plugin für SD2VITA installieren"
@@ -114,7 +114,7 @@ GERMAN["PSPCTRLS_LR_SWAP"] =							"Partitionen wechseln"
 
 --plugins online
 GERMAN["UPDATE_WIFI_LOW"] =								"Schlechtes Wifi Signal"
-GERMAN["UPDATE_WIFI_IS_ON"] =							"Wifi erforderlich"
+GERMAN["UPDATE_WIFI_OFF"] =							"Wifi erforderlich"
 GERMAN["UPDATE_CHECK_DB"] =								"Datenbank überprüfen"
 GERMAN["UPDATE_PLUGIN"] =								"Plugins aktualisiert"
 GERMAN["UPDATE_ERROR_DB"] =								"Fehler beim Herunterladen von db.lua"

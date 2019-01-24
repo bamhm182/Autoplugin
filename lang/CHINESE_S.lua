@@ -33,7 +33,7 @@ CHINESE_S["INSTALL_PLUGINS_DESC"] =					"安装为 PSVITA 环境开发的实用�
 CHINESE_S["UNINSTALL_PLUGINS_DESC"] =					"轻松简单地卸载插件"
 CHINESE_S["INSTALL_SD2VITA_DESC"] =					"安装 SD2VITA 插件 (StorageMgr,由 CelesteBlue 开发)"
 CHINESE_S["CONFIG_SD2VITA_DESC"] =						"配置 SD2VITA 插件 (StorageMgr,由 CelesteBlue 开发)"
-CHINESE_S["CHECK_ONLINEP_DESC"] =						"检查是否有插件更新（需要 Wifi）"
+CHINESE_S["CHECK_ONLINEP_DESC"] =						"检查是否有插件更新"
 
 CHINESE_S["MENU_TITLE_PSVITA"] =						"Vita 插件"
 CHINESE_S["MENU_INSTALL_SD2VITA"] =					"安装 SD2VITA 插件"
@@ -143,7 +143,7 @@ CHINESE_S["PSPCTRLS_LR_SWAP"] =						"切换分区"
 
 --plugins online
 CHINESE_S["UPDATE_WIFI_LOW"] =							"Wifi 信号较差"
-CHINESE_S["UPDATE_WIFI_IS_ON"] =						"需要 Wifi 连接"
+CHINESE_S["UPDATE_WIFI_OFF"] =						"需要 Wifi 连接"
 CHINESE_S["UPDATE_CHECK_DB"] =							"正在检查数据库"
 CHINESE_S["UPDATE_PLUGIN"] =							"已更新插件"
 CHINESE_S["UPDATE_ERROR_DB"] =							"下载 db.lua 过程出错"
