@@ -1,6 +1,7 @@
 # Autoplugin
 Autoplugin for PSVITA
 This tool allows you to install/uninstall the following plugins with one click(on ux0 or ur0 or ur0 for SD2VITA):
+test
 
 | Plugin | Author |
 | ------ | ------ |
